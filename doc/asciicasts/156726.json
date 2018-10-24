@@ -1,0 +1,858 @@
+{
+  "version": 1,
+  "width": 115,
+  "height": 27,
+  "duration": 50.461882,
+  "command": "zsh-5.4.2-dev-0",
+  "title": "Notifications for Zshell, no dbus, etc., batteries included",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "stdout": [
+    [
+      0.626098,
+      "\u001b[0m\u001b[27m\u001b[24m\u001b[JREADY > \u001b[K\u001b[?2004h"
+    ],
+    [
+      1.168809,
+      "\r\r\n"
+    ],
+    [
+      0.000101,
+      "Loaded OMZ::lib/git.zsh\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8C\u001b[K"
+    ],
+    [
+      0.024683,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      6.6e-05,
+      "Loaded OMZ::plugins/git\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8C\u001b[K"
+    ],
+    [
+      0.042287,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      6.3e-05,
+      "Loaded psprint/zsh-editing-workbench\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8C\u001b[K"
+    ],
+    [
+      0.028482,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      4.7e-05,
+      "Loaded psprint/zsh-navigation-tools\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8C\u001b[K"
+    ],
+    [
+      0.078599,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      4.4e-05,
+      "Loaded zdharma/zconvey\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8C\u001b[K"
+    ],
+    [
+      0.001554,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      6.1e-05,
+      "Loaded zdharma/zconvey\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8C\u001b[K"
+    ],
+    [
+      0.003916,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      0.000375,
+      "Loaded zservices/redis\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8C\u001b[K"
+    ],
+    [
+      0.005001,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      0.000244,
+      "Loaded zservices/py3http\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8C\u001b[K"
+    ],
+    [
+      0.020314,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      6e-05,
+      "Loaded psprint/history-search-multi-word\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8C\u001b[K"
+    ],
+    [
+      0.035898,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      5.2e-05,
+      "Loaded zdharma/zui\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8C\u001b[K"
+    ],
+    [
+      0.497341,
+      "t"
+    ],
+    [
+      0.089076,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      4.2e-05,
+      "Loaded b4b4r07/zsh-vimode-visual\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8Ct\u001b[K"
+    ],
+    [
+      0.121734,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      4.4e-05,
+      "Loaded zsh-users/zsh-autosuggestions\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8Ct\u001b[K"
+    ],
+    [
+      0.084719,
+      "\r\r\n\u001b[J"
+    ],
+    [
+      5.3e-05,
+      "Loaded zdharma/fast-syntax-highlighting\r\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[8Ct\u001b[K"
+    ],
+    [
+      0.058183,
+      "\b\u001b[1m\u001b[31mt\u001b[1m\u001b[31mm\u001b[0m\u001b[39m\u001b[90mux\u001b[39m\b\b"
+    ],
+    [
+      0.216846,
+      "\b\b\u001b[1m\u001b[31mt\u001b[1m\u001b[31mm\u001b[1m\u001b[31mu\u001b[0m\u001b[39m"
+    ],
+    [
+      0.327563,
+      "\b\b\b\u001b[0m\u001b[32mt\u001b[0m\u001b[32mm\u001b[0m\u001b[32mu\u001b[32mx\u001b[39m"
+    ],
+    [
+      0.384346,
+      "\u001b[?2004l\r\r\n\u001b[J"
+    ],
+    [
+      0.101625,
+      "\u001b[?1049h\u001b[?1h\u001b=\u001b[H\u001b[2J\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b[c\u001b(B\u001b[m\u001b[?12;25h\u001b[?12l\u001b[?25h\u001b[?1003l\u001b[?1006l\u001b[?2004l\u001b[1;1H\u001b[1;27r\u001b]112\u0007\u001b[1;1H"
+    ],
+    [
+      0.001411,
+      "\u001b]0;0:1:zsh-5.4.2-dev-0 - \"MacMini.local\" \u0007\u001b[?25l\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[37m\u001b[40m                                                                                \u001b[42m\u001b[1m1:zsh-5.4.2-dev-0*\u001b(B\u001b[m\u001b[37m\u001b[40m 04:49P | sty. 12\u001b(B\u001b[m\u001b[1;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.307662,
+      "\u001b[1;26r\u001b[1;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[HREADY > \u001b[K\u001b[1;27r\u001b[1;9H\u001b[?2004h"
+    ],
+    [
+      1.019891,
+      "\r\n"
+    ],
+    [
+      6.1e-05,
+      "Loaded OMZ::lib/git.zsh\u001b[1;9H"
+    ],
+    [
+      0.007303,
+      "\u001b[1;26r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1;27r\u001b[2;1HLoaded OMZ::plugins/git\u001b[1;9H"
+    ],
+    [
+      0.00478,
+      "\u001b[1;26r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1;27r\u001b[2;1HLoaded psprint/zsh-editing-workbench\u001b[1;9H"
+    ],
+    [
+      0.00702,
+      "\u001b[1;26r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1;27r\u001b[2;1HLoaded psprint/zsh-navigation-tools\u001b[1;9H"
+    ],
+    [
+      0.02073,
+      "\u001b[1;26r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1;27r\u001b[2;1HLoaded zdharma/zconvey\u001b[1;9H"
+    ],
+    [
+      0.001025,
+      "\u001b[1;26r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1;27r\u001b[2;1H"
+    ],
+    [
+      4.6e-05,
+      "Loaded zdharma/zconvey\u001b[1;9H"
+    ],
+    [
+      0.002882,
+      "\u001b[1;26r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1;27r\u001b[2;1H"
+    ],
+    [
+      4.7e-05,
+      "Loaded zservices/redis\u001b[1;9H"
+    ],
+    [
+      0.003902,
+      "\u001b[1;26r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1;27r\u001b[2;1HLoaded zservices/py3http"
+    ],
+    [
+      5.2e-05,
+      "\u001b[1;9H"
+    ],
+    [
+      0.0043,
+      "\u001b[1;26r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1;27r\u001b[2;1HLoaded psprint/history-search-multi-word\u001b[1;9H"
+    ],
+    [
+      0.00786,
+      "\u001b[1;26r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1;27r\u001b[2;1H"
+    ],
+    [
+      4.9e-05,
+      "Loaded zdharma/zui\u001b[1;9H"
+    ],
+    [
+      0.589243,
+      "\u001b[?25l\u001b[14;1H──────────────────────────────────────────────────────────\u001b[32m─────────────────────────────────────────────────────────\u001b[1;1H\u001b(B\u001b[mREADY > \u001b[K\r\nLoaded zdharma/zui          \u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[2B\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[37m\u001b[40m                                                                                \u001b[42m\u001b[1m1:zsh-5.4.2-dev-0*\u001b(B\u001b[m\u001b[37m\u001b[40m 04:49P | sty. 12\u001b(B\u001b[m\u001b[15;1H\u001b[?12l\u001b[?25h\u001b[?2004l"
+    ],
+    [
+      0.000269,
+      "\u001b[1;13r\u001b[1;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[HREADY > \u001b[1;27r\u001b[15;1H"
+    ],
+    [
+      0.303573,
+      "\u001b[15;26r\u001b[15;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[15dREADY > \u001b[K\u001b[1;27r\u001b[15;9H\u001b[?2004h"
+    ],
+    [
+      0.764524,
+      "\u001b[2;1HLoaded b4b4r07/zsh-vimode-visual\u001b[1;9H\u001b[K\u001b[15d"
+    ],
+    [
+      0.051627,
+      "\u001b[?25l\u001b[14;1H─────────────────────────────────────────────────────────\u001b[32m┬─────────────────────────────────────────────────────────\u001b[15;58H│\u001b[16;58H│\u001b[17;58H│\u001b[18;58H│\u001b[19;58H│\u001b[20;58H│\u001b[21;58H│\u001b[22;58H│\u001b[23;58H│\u001b[24;58H│\u001b[25;58H│\u001b[26;58H│\u001b[H\u001b(B\u001b[mREADY > \u001b[K\r\nLoaded b4b4r07/zsh-vimode-visual                         \u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\u001b[15;57H\u001b[1K\rREADY > \u001b[16;57H\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\u001b[15;59H\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\r\n\u001b[37m\u001b[40m                                                                                \u001b[42m\u001b[1m1:zsh-5.4.2-dev-0*\u001b(B\u001b[m\u001b[37m\u001b[40m 04:49P | sty. 12\u001b(B\u001b[m\u001b[15;59H\u001b[?12l\u001b[?25h\u001b[?2004l"
+    ],
+    [
+      0.001719,
+      "\u001b]0;0:1:tmux - \"MacMini.local\" \u0007\u001b[?25l\u001b[27;1H\u001b[37m\u001b[40m                                                                                           \u001b[42m\u001b[1m1:tmux*\u001b(B\u001b[m\u001b[37m\u001b[40m 04:49P | sty. 12\u001b(B\u001b[m\u001b[15;59H\u001b[?12l\u001b[?25h\u001b[15;26r\u001b[15;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[15;1HREADY > "
+    ],
+    [
+      5.8e-05,
+      "\u001b[1;27r\u001b[15;59H"
+    ],
+    [
+      0.051877,
+      "\u001b[1;13r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1;27r\u001b[15;59H"
+    ],
+    [
+      5e-05,
+      "\u001b[2;1HLoaded zsh-users/zsh-autosuggestions\u001b[15;59H"
+    ],
+    [
+      0.050697,
+      "\u001b[1;13r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1;27r\u001b[15;59H"
+    ],
+    [
+      4.7e-05,
+      "\u001b[2;1HLoaded zdharma/fast-syntax-highlighting\u001b[15;59H"
+    ],
+    [
+      0.23615,
+      "\u001b[15;26r\u001b[15;59H                                                         \u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[15;59HREADY >                                                  \u001b[15;1H\u001b[1;27r\u001b[15;67H"
+    ],
+    [
+      4.6e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.659458,
+      "\u001b]0;0:1:zsh-5.4.2-dev-0 - \"MacMini.local\" \u0007\u001b[?25l\u001b[27;1H\u001b[37m\u001b[40m                                                                                \u001b[42m\u001b[1m1:zsh-5.4.2-dev-0*\u001b(B\u001b[m\u001b[37m\u001b[40m 04:49P | sty. 12\u001b(B\u001b[m\u001b[15;67H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.019563,
+      "\r\nLoaded OMZ::lib/git.zsh\u001b[15;9H                                                 \u001b[9C"
+    ],
+    [
+      0.005679,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[15;67H"
+    ],
+    [
+      4.8e-05,
+      "\r\nLoaded OMZ::plugins/git\u001b[15;67H"
+    ],
+    [
+      0.004594,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[15;67H"
+    ],
+    [
+      4.3e-05,
+      "\r\nLoaded psprint/zsh-editing-workbench\u001b[15;67H"
+    ],
+    [
+      0.004885,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[15;67H\r\nLoaded psprint/zsh-navigation-tools"
+    ],
+    [
+      3.9e-05,
+      "\u001b[15;67H"
+    ],
+    [
+      0.02325,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[15;67H"
+    ],
+    [
+      6e-05,
+      "\r\nLoaded zdharma/zconvey\u001b[15;67H"
+    ],
+    [
+      0.001326,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[15;67H\r\nLoaded zdharma/zconvey"
+    ],
+    [
+      4.6e-05,
+      "\u001b[15;67H"
+    ],
+    [
+      0.003777,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[15;67H\r\nLoaded zservices/redis"
+    ],
+    [
+      0.00036,
+      "\u001b[15;67H"
+    ],
+    [
+      0.003691,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[15;67H"
+    ],
+    [
+      0.000229,
+      "\r\nLoaded zservices/py3http\u001b[15;67H"
+    ],
+    [
+      0.003908,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[15;67H\r\nLoaded psprint/history-search-multi-word"
+    ],
+    [
+      4.3e-05,
+      "\u001b[15;67H"
+    ],
+    [
+      0.010095,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[15;67H"
+    ],
+    [
+      4.7e-05,
+      "\r\nLoaded zdharma/zui\u001b[15;67H"
+    ],
+    [
+      0.254767,
+      "\u001b[?25l\u001b[32m\u001b[14;1H─────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────\u001b[39m\u001b[15;58H│\u001b[16;58H│\u001b[17;58H│\u001b[18;58H│\u001b[19;58H│\u001b[20;58H│\u001b[21;58H│\u001b[22;58H│\u001b[23;58H│\u001b[24;58H│\u001b[25;58H│\u001b[26;58H│\u001b(B\u001b[m\u001b[1;9H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.02438,
+      "\u001b[16;59HLoaded OMZ::lib/git.zsh\u001b[1;9H"
+    ],
+    [
+      0.005976,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[1;9H"
+    ],
+    [
+      4.9e-05,
+      "\u001b[16;59HLoaded OMZ::plugins/git\u001b[1;9H"
+    ],
+    [
+      0.004685,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[1;9H"
+    ],
+    [
+      4.5e-05,
+      "\u001b[16;59HLoaded psprint/zsh-editing-workbench\u001b[1;9H"
+    ],
+    [
+      0.007131,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[1;9H"
+    ],
+    [
+      6.1e-05,
+      "\u001b[16;59HLoaded psprint/zsh-navigation-tools\u001b[1;9H"
+    ],
+    [
+      0.025176,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[1;9H"
+    ],
+    [
+      5.3e-05,
+      "\u001b[16;59HLoaded zdharma/zconvey\u001b[1;9H"
+    ],
+    [
+      0.000946,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[1;9H"
+    ],
+    [
+      4.8e-05,
+      "\u001b[16;59HLoaded zdharma/zconvey\u001b[1;9H"
+    ],
+    [
+      0.003046,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[1;9H\u001b[16;59HLoaded zservices/redis"
+    ],
+    [
+      0.000118,
+      "\u001b[1;9H"
+    ],
+    [
+      0.003187,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[1;9H"
+    ],
+    [
+      5.1e-05,
+      "\u001b[16;59HLoaded zservices/py3http\u001b[1;9H"
+    ],
+    [
+      0.003496,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[1;9H\u001b[16;59HLoaded psprint/history-search-multi-word"
+    ],
+    [
+      5e-05,
+      "\u001b[1;9H"
+    ],
+    [
+      0.00757,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[1;9H"
+    ],
+    [
+      4.9e-05,
+      "\u001b[16;59HLoaded zdharma/zui\u001b[1;9H"
+    ],
+    [
+      0.727548,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[1;9H"
+    ],
+    [
+      4.8e-05,
+      "\u001b[16;1HLoaded b4b4r07/zsh-vimode-visual\u001b[1;9H"
+    ],
+    [
+      0.094027,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[1;9H\u001b[16;1HLoaded zsh-users/zsh-autosuggestions"
+    ],
+    [
+      7.2e-05,
+      "\u001b[1;9H"
+    ],
+    [
+      0.046145,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[1;9H"
+    ],
+    [
+      5e-05,
+      "\u001b[16;1HLoaded zdharma/fast-syntax-highlighting\u001b[1;9H"
+    ],
+    [
+      0.227412,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[1;9H"
+    ],
+    [
+      5.2e-05,
+      "\u001b[16;59HLoaded b4b4r07/zsh-vimode-visual\u001b[1;9H"
+    ],
+    [
+      0.099524,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[1;9H"
+    ],
+    [
+      5.8e-05,
+      "\u001b[16;59HLoaded zsh-users/zsh-autosuggestions\u001b[1;9H"
+    ],
+    [
+      0.047877,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[1;9H"
+    ],
+    [
+      6.6e-05,
+      "\u001b[16;59HLoaded zdharma/fast-syntax-highlighting\u001b[1;9H"
+    ],
+    [
+      0.336777,
+      "\u001b[31m\u001b[1mz\u001b(B\u001b[m\u001b[90mplg load marzocchi/zsh-notify\u001b[10G\u001b(B\u001b[m"
+    ],
+    [
+      0.353158,
+      "\b\u001b[32mzc\u001b[90m-bg-notify -q Hello, this is a notification \":)\"\u001b[11G\u001b(B\u001b[m"
+    ],
+    [
+      0.171715,
+      "\b\b\u001b[31m\u001b[1mzc-\u001b(B\u001b[m"
+    ],
+    [
+      0.392888,
+      "\b\u001b[31m\u001b[1m-a\u001b(B\u001b[m\u001b[90mll -q MYPROMPT=1; MYPROMPT=1\u001b[39m                  \u001b[13G"
+    ],
+    [
+      0.447268,
+      "\b\u001b[31m\u001b[1mal\u001b(B\u001b[m"
+    ],
+    [
+      0.176337,
+      "\u001b[5D\u001b[32mzc-all\u001b(B\u001b[m"
+    ],
+    [
+      0.513202,
+      " \u001b[36m-q\u001b[39m MYPROMPT=1; MYPROMPT=1"
+    ],
+    [
+      2.001485,
+      "\u001b[1;13r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1;27r\u001b[2;1H\u001b[?2004l"
+    ],
+    [
+      0.329241,
+      "\u001b[1;13r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[2d\u001b[33m\u001b[1m16:50\u001b[31m[\u001b(B\u001b[m\u001b[36m/Users/sgniazdowski\u001b[31m\u001b[1m]\u001b[33m2\u001b[32m >: \u001b(B\u001b[m\u001b[K\u001b[1;27r\u001b[2;32H\u001b[?2004h"
+    ],
+    [
+      0.34192,
+      "\u001b[15;67HM\u001b[2;32H"
+    ],
+    [
+      0.001778,
+      "\u001b[15;67HMY\u001b[2;32H"
+    ],
+    [
+      0.001328,
+      "\u001b[15;69HP\u001b[2;32H"
+    ],
+    [
+      0.001243,
+      "\u001b[15;70HR\u001b[2;32H"
+    ],
+    [
+      0.001068,
+      "\u001b[15;71HO\u001b[2;32H"
+    ],
+    [
+      0.000939,
+      "\u001b[15;72HM\u001b[2;32H"
+    ],
+    [
+      0.000888,
+      "\u001b[15;73HP\u001b[2;32H"
+    ],
+    [
+      0.001175,
+      "\u001b[15;74HT\u001b[2;32H"
+    ],
+    [
+      0.001819,
+      "\u001b[15;75H=\u001b[2;32H"
+    ],
+    [
+      0.000907,
+      "\u001b[15;76H1\u001b[2;32H"
+    ],
+    [
+      0.001442,
+      "\u001b[15;77H \u001b[2;32H"
+    ],
+    [
+      0.001262,
+      "\u001b[15;78H#\u001b[2;32H"
+    ],
+    [
+      0.001232,
+      "\u001b[15;79H#\u001b[2;32H"
+    ],
+    [
+      0.005286,
+      "\u001b[15;78H\u001b[30m\u001b[1m##\u001b[2;32H\u001b(B\u001b[m"
+    ],
+    [
+      0.001708,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[2;32H"
+    ],
+    [
+      0.098855,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[16;59HREADY >                                                  \u001b[16;1H\u001b[1;27r\u001b[2;32H"
+    ],
+    [
+      0.497609,
+      "\u001b[15;9HM\u001b[2;32H"
+    ],
+    [
+      0.000927,
+      "\u001b[15;9HMY\u001b[2;32H"
+    ],
+    [
+      0.000844,
+      "\u001b[15;11HP\u001b[2;32H"
+    ],
+    [
+      0.000851,
+      "\u001b[15;12HR\u001b[2;32H"
+    ],
+    [
+      0.000916,
+      "\u001b[15;13HO\u001b[2;32H"
+    ],
+    [
+      0.00082,
+      "\u001b[15;14HM\u001b[2;32H"
+    ],
+    [
+      0.000888,
+      "\u001b[15;15HP\u001b[2;32H"
+    ],
+    [
+      0.000815,
+      "\u001b[15;16HT\u001b[2;32H"
+    ],
+    [
+      0.001318,
+      "\u001b[15;17H=\u001b[2;32H"
+    ],
+    [
+      0.000922,
+      "\u001b[15;18H1\u001b[2;32H"
+    ],
+    [
+      0.001276,
+      "\u001b[15;19H \u001b[2;32H"
+    ],
+    [
+      0.001444,
+      "\u001b[15;20H#\u001b[2;32H"
+    ],
+    [
+      0.001247,
+      "\u001b[15;21H#\u001b[2;32H"
+    ],
+    [
+      0.005696,
+      "\u001b[15;20H\u001b[30m\u001b[1m##\u001b[2;32H\u001b(B\u001b[m"
+    ],
+    [
+      0.001201,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[2;32H"
+    ],
+    [
+      0.089655,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[16;1HREADY >                                                  \u001b[1;27r\u001b[2;32H"
+    ],
+    [
+      0.409803,
+      "\u001b[17;59HLoaded psprint/zprompts\u001b[2;32H"
+    ],
+    [
+      0.001048,
+      "\u001b[15;26r\u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[16;59H\u001b[33m\u001b[1m16:50\u001b[31m[\u001b(B\u001b[m\u001b[36m/Users/sgniazdowski\u001b[31m\u001b[1m]\u001b[33m30\u001b[32m >: \u001b(B\u001b[m                         \u001b[16;1H\u001b[1;27r\u001b[2;32H"
+    ],
+    [
+      0.608715,
+      "\u001b[17;1HLoaded psprint/zprompts\u001b[2;32H"
+    ],
+    [
+      0.001406,
+      "\u001b[15;26r\u001b[16;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[16;1H\u001b[33m\u001b[1m16:50\u001b[31m[\u001b(B\u001b[m\u001b[36m/Users/sgniazdowski\u001b[31m\u001b[1m]\u001b[33m30\u001b[32m >: \u001b(B\u001b[m                         \u001b[1;27r\u001b[2;32H"
+    ],
+    [
+      1.946601,
+      "\u001b[31m\u001b[1mz\u001b(B\u001b[m\u001b[90mc-all -q MYPROMPT=1; MYPROMPT=1\u001b[31D\u001b(B\u001b[m"
+    ],
+    [
+      0.252061,
+      "\b\u001b[32mzc\u001b(B\u001b[m"
+    ],
+    [
+      0.168607,
+      "\b\b\u001b[31m\u001b[1mzc-\u001b(B\u001b[m"
+    ],
+    [
+      0.222523,
+      "\b\u001b[31m\u001b[1m-b\u001b(B\u001b[m\u001b[90mg-notify -q Hello, this is a notification \":)\"\u001b[36G\u001b(B\u001b[m"
+    ],
+    [
+      0.231058,
+      "\b\u001b[31m\u001b[1mbg\u001b(B\u001b[m"
+    ],
+    [
+      1.07916,
+      "\u001b[5D\u001b[32mzc-bg-notify\u001b[39m \u001b[36m-q\u001b[39m Hello, this is \u001b[35ma\u001b[39m notification \u001b[33m\":)\"\u001b(B\u001b[m"
+    ],
+    [
+      2.104492,
+      "\r\n\u001b[?2004l"
+    ],
+    [
+      0.432261,
+      "\u001b[17;59HNotification: Hello, this is a notification :)\u001b[3;1H"
+    ],
+    [
+      0.043479,
+      "\u001b[1;13r\u001b[3;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[3d\u001b[33m\u001b[1m16:50\u001b[31m[\u001b(B\u001b[m\u001b[36m/Users/sgniazdowski\u001b[31m\u001b[1m]\u001b[33m3\u001b[32m >: \u001b(B\u001b[m\u001b[K\u001b[1;27r\u001b[3;32H\u001b[?2004h"
+    ],
+    [
+      0.572582,
+      "\u001b[17;1HNotification: Hello, this is a notification :)\u001b[3;32H"
+    ],
+    [
+      3.212131,
+      "\u001b[31m\u001b[1mz\u001b(B\u001b[m\u001b[90mc-bg-notify -q Hello, this is a notification \":)\"\u001b[33G\u001b(B\u001b[m"
+    ],
+    [
+      0.24654,
+      "\b\u001b[31m\u001b[1mzp\u001b(B\u001b[m\u001b[90mlg load marzocchi/zsh-notify\u001b[39m                    \u001b[34G"
+    ],
+    [
+      0.091053,
+      "\b\b\u001b[32mzpl\u001b(B\u001b[m"
+    ],
+    [
+      0.225038,
+      "\b\u001b[32mlg\u001b(B\u001b[m"
+    ],
+    [
+      0.205787,
+      " "
+    ],
+    [
+      0.198544,
+      "l"
+    ],
+    [
+      0.176307,
+      "o"
+    ],
+    [
+      0.128904,
+      "a"
+    ],
+    [
+      0.921396,
+      "d marzocchi/zsh-notify"
+    ],
+    [
+      1.416939,
+      "\r\n\u001b[?2004l"
+    ],
+    [
+      0.206711,
+      "\u001b[1;13r\u001b[4;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[4d\u001b[33m\u001b[1m16:50\u001b[31m[\u001b(B\u001b[m\u001b[36m/Users/sgniazdowski\u001b[31m\u001b[1m]\u001b[33m4\u001b[32m >: \u001b(B\u001b[m\u001b[K\u001b[1;27r\u001b[4;32H\u001b[?2004h"
+    ],
+    [
+      1.813306,
+      "\u001b[31m\u001b[1ms\u001b(B\u001b[m\u001b[90mleep 4\u001b[6D\u001b(B\u001b[m"
+    ],
+    [
+      0.160502,
+      "\b\u001b[31m\u001b[1msl\u001b(B\u001b[m"
+    ],
+    [
+      0.141742,
+      "\b\b\u001b[31m\u001b[1msle\u001b(B\u001b[m"
+    ],
+    [
+      0.163424,
+      "\b\u001b[31m\u001b[1mee\u001b(B\u001b[m"
+    ],
+    [
+      0.110292,
+      "\u001b[4D\u001b[32msleep\u001b(B\u001b[m"
+    ],
+    [
+      0.666823,
+      " 4"
+    ],
+    [
+      1.410221,
+      "\r\n\u001b[?2004l"
+    ],
+    [
+      0.738788,
+      "\u001b[?25l\u001b[27d\u001b[37m\u001b[40m                                                                                \u001b[42m\u001b[1m1:zsh-5.4.2-dev-0*\u001b(B\u001b[m\u001b[37m\u001b[40m 04:50P | sty. 12\u001b(B\u001b[m\u001b[5;1H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.337715,
+      "\u001b[?25l\u001b[9B─────────────────────────────────────────────────────────\u001b[32m┬─────────────────────────────────────────────────────────\u001b[15;58H│\u001b[16;58H│\u001b[17;58H│\u001b[18;58H│\u001b[19;58H│\u001b[20;58H│\u001b[21;58H│\u001b[22;58H│\u001b[23;58H│\u001b[24;58H│\u001b[25;58H│\u001b[26;58H│\u001b(B\u001b[m\u001b[16;91H\u001b[?12l\u001b[?25h\u001b[?2004h"
+    ],
+    [
+      3.081547,
+      "\u001b[1;13r\u001b[5;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[5d\u001b[33m\u001b[1m16:50\u001b[31m[\u001b(B\u001b[m\u001b[36m/Users/sgniazdowski\u001b[31m\u001b[1m]\u001b[33m5\u001b[32m >: \u001b(B\u001b[m\u001b[K\u001b[1;27r\u001b[16;91H"
+    ],
+    [
+      1.894473,
+      "\u001b[15;26r\u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H                                                         \u001b[26;59H                                                         \u001b[26;1H\u001b[1;27r\u001b[17;59H"
+    ],
+    [
+      5.3e-05,
+      "Notification: success - sleep 4\u001b[16;91H"
+    ],
+    [
+      0.574054,
+      "\u001b[15;26r\u001b[17;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[1;27r\u001b[16;91H"
+    ],
+    [
+      0.000113,
+      "\r\nNotification: success - sleep 4\u001b[16;91H"
+    ],
+    [
+      3.057596,
+      "\u001b[?25l\u001b[32m\u001b[14;1H─────────────────────────────────────────────────────────┬─────────────────────────────────────────────────────────\u001b[39m\u001b[15;58H│\u001b[16;58H│\u001b[17;58H│\u001b[18;58H│\u001b[19;58H│\u001b[20;58H│\u001b[21;58H│\u001b[22;58H│\u001b[23;58H│\u001b[24;58H│\u001b[25;58H│\u001b[26;58H│\u001b(B\u001b[m\u001b[5;32H\u001b[?12l\u001b[?25h"
+    ],
+    [
+      0.855259,
+      "\r\n\u001b[?2004l"
+    ],
+    [
+      0.796476,
+      "\u001b[?25l\u001b[1;58H│\u001b[2;58H│\u001b[3;58H│\u001b[4;58H│\u001b[5;58H│\u001b[6;58H│\u001b[7;58H│\u001b[8;58H│\u001b[9;58H│\u001b[10;58H│\u001b[11;58H│\u001b[12;58H│\u001b[13;58H│\u001b[14;58H│\u001b[32m\u001b[15;58H│\u001b[16;58H│\u001b[17;58H│\u001b[18;58H│\u001b[19;58H│\u001b[20;58H│\u001b[21;58H│\u001b[22;58H│\u001b[23;58H│\u001b[24;58H│\u001b[25;58H│\u001b[26;58H│\u001b(B\u001b[m\u001b[1;57H\u001b[1K\u001b[HREADY > MYPROMPT=1 \u001b[30m\u001b[1m##\u001b(B\u001b[m       \u001b[2;57H\u001b[1K\r\u001b[33m\u001b[1m16:50\u001b[31m[\u001b(B\u001b[m\u001b[36m/Users/sgniazdowski\u001b[31m\u001b[1m]\u001b[33m30\u001b[32m >: \r\n\u001b(B\u001b[mNotification: success - sleep 4                          \u001b[4;57H\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\n\u001b[1K\u001b[1;59HREADY > MYPROMPT=1 \u001b[30m\u001b[1m##\u001b(B\u001b[m       \u001b[K\u001b[2;59H\u001b[33m\u001b[1m16:50\u001b[31m[\u001b(B\u001b[m\u001b[36m/Users/sgniazdowski\u001b[31m\u001b[1m]\u001b[33m30\u001b[32m >: \u001b(B\u001b[m\u001b[K\u001b[3;59HNotification: success - sleep 4                          \u001b[3;115H\u001b[4;59H\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\r\n\u001b[37m\u001b[40m                                                                        "
+    ],
+    [
+      0.000151,
+      "        \u001b[42m\u001b[1m1:zsh-5.4.2-dev-0*\u001b(B\u001b[m\u001b[37m\u001b[40m 04:50P | sty. 12\u001b(B\u001b[m\u001b[2;91H\u001b[?12l\u001b[?25h\u001b[?2004h"
+    ],
+    [
+      0.000322,
+      "\u001b[1;26r\u001b[2;1H                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n        "
+    ],
+    [
+      0.000142,
+      "                                                 \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \r\n                                                         \u001b[2;1H\u001b[33m\u001b[1m16:50\u001b[31m[\u001b(B\u001b[m\u001b[36m/Users/sgniazdowski\u001b[31m\u001b[1m]\u001b[33m2\u001b[32m >: \u001b(B\u001b[m\u001b[27C                                                         \u001b[3;59H                                                         \u001b[4;59H                                                         \u001b[5;59H                                                         \u001b[6;59H                                                         \u001b[7;59H                                                         \u001b[8;59H                                                         \u001b[9;59H                      "
+    ],
+    [
+      0.000136,
+      "                                   \u001b[10;59H                                                         \u001b[11;59H                                                         \u001b[12;59H                                                         \u001b[13;59H                                                         \u001b[14;59H                                                         \u001b[15;59H                                                         \u001b[16;59H                                                         \u001b[17;59H                                                         \u001b[18;59H                                                         \u001b[19;59H                                                         \u001b[20;59H                                                         \u001b[21;59H                                                         \u001b[22;59H                                                         \u001b[23;59H                                                         \u001b[24;59H                                                         \u001b[25;59H      "
+    ],
+    [
+      4.6e-05,
+      "                                                   \u001b[26;59H                                                         \u001b[2;59H\u001b[33m\u001b[1m16:50\u001b[31m[\u001b(B\u001b[m\u001b[36m/Users/sgniazdowski\u001b[31m\u001b[1m]\u001b[33m2\u001b[32m >: \u001b[1;27r\u001b[2;90H\u001b(B\u001b[m"
+    ],
+    [
+      0.450586,
+      "\u001b[3;59H\u001b[?2004l"
+    ],
+    [
+      0.777972,
+      "\u001b[?25l\u001b[HREADY > MYPROMPT=1 \u001b[30m\u001b[1m##\u001b(B\u001b[m       \u001b[K\r\n\u001b[33m\u001b[1m16:50\u001b[31m[\u001b(B\u001b[m\u001b[36m/Users/sgniazdowski\u001b[31m\u001b[1m]\u001b[33m2\u001b[32m >: \u001b(B\u001b[m                          \u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[K\r\n\u001b[37m\u001b[40m                                                                                \u001b[42m\u001b[1m1:zsh-5.4.2-dev-0*\u001b(B\u001b[m\u001b[37m\u001b[40m 04:50P | sty. 12\u001b(B\u001b[m\u001b[2;32H\u001b[?12l\u001b[?25h\u001b[?2004h"
+    ],
+    [
+      0.00025,
+      "\u001b[1;26r\u001b[2;1H\u001b[K\r\n\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[1B\u001b[K\u001b[2d\u001b[33m\u001b[1m16:50\u001b[31m[\u001b(B\u001b[m\u001b[36m/Users/sgniazdowski\u001b[31m\u001b[1m]\u001b[33m2\u001b[32m >: \u001b[1;27r\u001b[2;32H\u001b(B\u001b[m"
+    ],
+    [
+      0.373956,
+      "\r\n\u001b[?2004l"
+    ],
+    [
+      0.782026,
+      "\u001b[1;27r\u001b(B\u001b[m\u001b[?1l\u001b>\u001b[H\u001b[2J\u001b]112\u0007\u001b[?12l\u001b[?25h\u001b[?1000l\u001b[?1002l\u001b[?1006l\u001b[?1005l\u001b[?1049l"
+    ],
+    [
+      0.000196,
+      "[exited]\r\n"
+    ],
+    [
+      0.084071,
+      "\u001b[0m\u001b[27m\u001b[24m\u001b[JREADY > \u001b[K\u001b[?2004h"
+    ],
+    [
+      0.836974,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}
