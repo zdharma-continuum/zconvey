@@ -426,7 +426,7 @@ function __zconvey_on_period_passed() {
     local line cmdts concat_command=""
     for line in "${commands[@]}"; do
         cmdts="${line%% *}"
-        concat_command+="; ${line#* }"
+        concat_command+="; ${(Q)line#* }"
     done
     concat_command="${concat_command#; }"
 
