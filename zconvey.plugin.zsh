@@ -485,7 +485,7 @@ __zconvey_preexec_hook() {
     fi
 
     # Mark that the shell is busy
-    print -r -- "${1[(w)1]}" >! "$ZCONVEY_OTHER_DIR/${ZCONVEY_ID}.busy"
+    print -r -- "$1" >! "$ZCONVEY_OTHER_DIR/${ZCONVEY_ID}.busy"
 }
 
 # A hook marking the shell as not busy
