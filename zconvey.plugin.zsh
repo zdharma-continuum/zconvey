@@ -344,7 +344,7 @@ function __zconvey_on_period_passed() {
 
     # ..and block Ctrl-C, this function will not
     # stall, no reason for someone to use Ctrl-C
-    setopt localtraps; trap '' INT
+    setopt localtraps; trap '' 2
     setopt localoptions extendedglob clobber
 
     # Remember when the command was run to detect a possible
