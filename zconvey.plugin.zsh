@@ -5,18 +5,22 @@
 # to ~/.zshrc.
 #
 
-0="${(%):-%N}" # this gives immunity to functionargzero being unset
-typeset -gx ZCONVEY_REPO_DIR="${0%/*}"
+# According to the standard:
+# http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html
+0="${${ZERO:-${0:#$ZSH_ARGZERO}}:-${(%):-%N}}"
+0="${${(M)0:#/*}:-$PWD/$0}"
+typeset -gx ZCONVEY_REPO_DIR="${0:h}"
 typeset -gx ZCONVEY_CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/zconvey"
 
 #
 # Update FPATH if:
-# 1. Not loading with Zplugin
-# 2. Not having fpath already updated (that would equal: using other plugin manager)
+# 1. Not loading with a plugin manager
+# 2. Not having fpath already updated
 #
 
-if [[ -z "$ZPLG_CUR_PLUGIN" && "${fpath[(r)$ZCONVEY_REPO_DIR]}" != $ZCONVEY_REPO_DIR ]]; then
-    fpath+=( "$ZCONVEY_REPO_DIR" )
+if [[ ${zsh_loaded_plugins[-1]} != */zconvey && -z ${fpath[(r)${0:h}]} ]]
+then
+    fpath+=( "${0:h}" )
 fi
 
 #
