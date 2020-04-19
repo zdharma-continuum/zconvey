@@ -315,6 +315,8 @@ fi
     # descriptors cannot be written to
     [[ "$ZCONVEY_FD" -ne "0" ]] && { echo "$$" >&${ZCONVEY_FD} } 2>/dev/null
 
+    command rm -f "$ZCONVEY_OTHER_DIR/${ZCONVEY_ID}.busy"
+
     # Show what is resolved (ID and possibly a NAME)
     [[ "$ZCONVEY_CONFIG[greeting]" = "logo" ]] && zc-logo echo
     [[ "$ZCONVEY_CONFIG[greeting]" = "text" ]] && zc-id
