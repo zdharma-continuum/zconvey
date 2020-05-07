@@ -187,7 +187,7 @@ function zc-id() {
 # flock in Zsh ver. < 5.3 doesn't) - util-linux/flock stripped
 # of some things, compiles hopefully everywhere (tested on OS X,
 # Linux, FreeBSD).
-if [[ ! -e "${ZCONVEY_REPO_DIR}/myflock/flock" ]]; then
+if [[ ! -e "${ZCONVEY_REPO_DIR}/myflock/flock" && ! -e "${ZCONVEY_REPO_DIR}/myflock/flock.exe" ]]; then
     (
         if zmodload zsh/system 2>/dev/null; then
             if zsystem flock -t 1 "${ZCONVEY_REPO_DIR}/myflock/LICENSE"; then
