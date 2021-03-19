@@ -191,8 +191,11 @@ if [[ ! -e "${ZCONVEY_REPO_DIR}/myflock/flock" && ! -e "${ZCONVEY_REPO_DIR}/myfl
     (
         if zmodload zsh/system 2>/dev/null; then
             if zsystem flock -t 1 "${ZCONVEY_REPO_DIR}/myflock/LICENSE"; then
-                echo "\033[1;35m""zdharma\033[0m/\033[1;33m""zconvey\033[0m is building small locking command for you..."
-                make -C "${ZCONVEY_REPO_DIR}/myflock"
+                {
+                    echo "\033[1;35m""zdharma\033[0m/\033[1;33m""zconvey\033[0m is building small locking command for you..."
+                    make -C "${ZCONVEY_REPO_DIR}/myflock"
+
+                } &>/dev/null
             fi
         else
             make -C "${ZCONVEY_REPO_DIR}/myflock"
@@ -205,8 +208,10 @@ if [[ ! -e "${ZCONVEY_REPO_DIR}/feeder/feeder" ]]; then
     (
         if zmodload zsh/system 2>/dev/null; then
             if zsystem flock -t 1 "${ZCONVEY_REPO_DIR}/myflock/LICENSE"; then
+                {
                 echo "\033[1;35m""zdharma\033[0m/\033[1;33m""zconvey\033[0m is building small command line feeder for you..."
                 make -C "${ZCONVEY_REPO_DIR}/feeder"
+                } &>/dev/null
             fi
         else
             make -C "${ZCONVEY_REPO_DIR}/feeder"
@@ -487,7 +492,7 @@ __zconvey_preexec_hook() {
         ZCONVEY_SCHEDULE_ORIGIN="$SECONDS"
         sched +"${ZCONVEY_CONFIG[check_interval]}" __zconvey_on_period_passed "$ZCONVEY_SCHEDULE_ORIGIN"
 
-        __zconvey_pinfo "Failure in reschedule detected ${zsh_scheduled_events[*]}"
+        #__zconvey_pinfo "Failure in reschedule detected ${zsh_scheduled_events[*]}"
     fi
 
     # Mark that the shell is busy
