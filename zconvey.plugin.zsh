@@ -5,18 +5,22 @@
 # to ~/.zshrc.
 #
 
-0="${(%):-%N}" # this gives immunity to functionargzero being unset
-typeset -gx ZCONVEY_REPO_DIR="${0%/*}"
+# According to the standard:
+# http://zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html
+0="${${ZERO:-${0:#$ZSH_ARGZERO}}:-${(%):-%N}}"
+0="${${(M)0:#/*}:-$PWD/$0}"
+typeset -gx ZCONVEY_REPO_DIR="${0:h}"
 typeset -gx ZCONVEY_CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/zconvey"
 
 #
 # Update FPATH if:
-# 1. Not loading with Zplugin
-# 2. Not having fpath already updated (that would equal: using other plugin manager)
+# 1. Not loading with a plugin manager
+# 2. Not having fpath already updated
 #
 
-if [[ -z "$ZPLG_CUR_PLUGIN" && "${fpath[(r)$ZCONVEY_REPO_DIR]}" != $ZCONVEY_REPO_DIR ]]; then
-    fpath+=( "$ZCONVEY_REPO_DIR" )
+if [[ ${zsh_loaded_plugins[-1]} != */zconvey && -z ${fpath[(r)${0:h}]} ]]
+then
+    fpath+=( "${0:h}" )
 fi
 
 #
@@ -183,12 +187,15 @@ function zc-id() {
 # flock in Zsh ver. < 5.3 doesn't) - util-linux/flock stripped
 # of some things, compiles hopefully everywhere (tested on OS X,
 # Linux, FreeBSD).
-if [[ ! -e "${ZCONVEY_REPO_DIR}/myflock/flock" ]]; then
+if [[ ! -e "${ZCONVEY_REPO_DIR}/myflock/flock" && ! -e "${ZCONVEY_REPO_DIR}/myflock/flock.exe" ]]; then
     (
         if zmodload zsh/system 2>/dev/null; then
             if zsystem flock -t 1 "${ZCONVEY_REPO_DIR}/myflock/LICENSE"; then
-                echo "\033[1;35m""zdharma\033[0m/\033[1;33m""zconvey\033[0m is building small locking command for you..."
-                make -C "${ZCONVEY_REPO_DIR}/myflock"
+                {
+                    echo "\033[1;35m""zdharma\033[0m/\033[1;33m""zconvey\033[0m is building small locking command for you..."
+                    make -C "${ZCONVEY_REPO_DIR}/myflock"
+
+                } &>/dev/null
             fi
         else
             make -C "${ZCONVEY_REPO_DIR}/myflock"
@@ -201,8 +208,10 @@ if [[ ! -e "${ZCONVEY_REPO_DIR}/feeder/feeder" ]]; then
     (
         if zmodload zsh/system 2>/dev/null; then
             if zsystem flock -t 1 "${ZCONVEY_REPO_DIR}/myflock/LICENSE"; then
+                {
                 echo "\033[1;35m""zdharma\033[0m/\033[1;33m""zconvey\033[0m is building small command line feeder for you..."
                 make -C "${ZCONVEY_REPO_DIR}/feeder"
+                } &>/dev/null
             fi
         else
             make -C "${ZCONVEY_REPO_DIR}/feeder"
@@ -311,6 +320,8 @@ fi
     # descriptors cannot be written to
     [[ "$ZCONVEY_FD" -ne "0" ]] && { echo "$$" >&${ZCONVEY_FD} } 2>/dev/null
 
+    command rm -f "$ZCONVEY_OTHER_DIR/${ZCONVEY_ID}.busy"
+
     # Show what is resolved (ID and possibly a NAME)
     [[ "$ZCONVEY_CONFIG[greeting]" = "logo" ]] && zc-logo echo
     [[ "$ZCONVEY_CONFIG[greeting]" = "text" ]] && zc-id
@@ -344,7 +355,7 @@ function __zconvey_on_period_passed() {
 
     # ..and block Ctrl-C, this function will not
     # stall, no reason for someone to use Ctrl-C
-    setopt localtraps; trap '' INT
+    setopt localtraps; trap '' 2
     setopt localoptions extendedglob clobber
 
     # Remember when the command was run to detect a possible
@@ -426,7 +437,7 @@ function __zconvey_on_period_passed() {
     local line cmdts concat_command=""
     for line in "${commands[@]}"; do
         cmdts="${line%% *}"
-        concat_command+="; ${line#* }"
+        concat_command+="; ${(Q)line#* }"
     done
     concat_command="${concat_command#; }"
 
@@ -481,11 +492,11 @@ __zconvey_preexec_hook() {
         ZCONVEY_SCHEDULE_ORIGIN="$SECONDS"
         sched +"${ZCONVEY_CONFIG[check_interval]}" __zconvey_on_period_passed "$ZCONVEY_SCHEDULE_ORIGIN"
 
-        __zconvey_pinfo "Failure in reschedule detected ${zsh_scheduled_events[*]}"
+        #__zconvey_pinfo "Failure in reschedule detected ${zsh_scheduled_events[*]}"
     fi
 
     # Mark that the shell is busy
-    print -r -- "${1[(w)1]}" >! "$ZCONVEY_OTHER_DIR/${ZCONVEY_ID}.busy"
+    print -r -- "$1" >! "$ZCONVEY_OTHER_DIR/${ZCONVEY_ID}.busy"
 }
 
 # A hook marking the shell as not busy
