@@ -84,12 +84,12 @@ Install it with e.g. Zplugin to be able to use `-a` option for `zc` command. It 
 with [marzocchi/zsh-notify](https://github.com/marzocchi/zsh-notify), via `cmds/plg-zsh-notify`
 script.
 
-## [Zplugin](https://github.com/zdharma/zplugin)
+## [Zplugin](https://github.com/zdharma-continuum/zinit)
 
 Add `zplugin load zdharma/zconvey` to your `.zshrc` file. Zplugin will clone the plugin
  the next time you start zsh. To update issue `zplugin update zdharma/zconvey`.
 
-Zplugin can load in [turbo-mode](https://github.com/zdharma/zplugin#turbo-mode-zsh--53),
+Zplugin can load in [turbo-mode](https://github.com/zdharma-continuum/zinit#turbo-mode-zsh--53),
 below is an example configuration, together with adding `zc-bg-notify` to `$PATH`:
 
 ```zsh
