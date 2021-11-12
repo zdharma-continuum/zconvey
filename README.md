@@ -7,7 +7,7 @@
 - [Introduction](#introduction)
 - [Zstyles](#zstyles)
 - [Installation](#installation)
-  - [Zplugin](#zplugin)
+  - [Zinit](#zinit)
   - [Antigen](#antigen)
   - [Oh-My-Zsh](#oh-my-zsh)
   - [Zgen](#zgen)
@@ -75,44 +75,44 @@ source {where-zconvey-is}/zconvey.plugin.zsh
 
 to `zshrc`.
 
-If using a plugin manager, then `Zplugin` is recommended, but you can use any
+If using a plugin manager, then `Zinit` is recommended, but you can use any
 other too, and also install with `Oh My Zsh` (by copying directory to
 `~/.oh-my-zsh/custom/plugins`).
 
-The plugin integrates with my other plugin [Zsh-Select](https://github.com/psprint/zsh-select).
-Install it with e.g. Zplugin to be able to use `-a` option for `zc` command. It also integrates
+The plugin integrates with my other plugin [Zsh-Select](https://github.com/zdharma-continuum/zsh-select).
+Install it with e.g. Zinit to be able to use `-a` option for `zc` command. It also integrates
 with [marzocchi/zsh-notify](https://github.com/marzocchi/zsh-notify), via `cmds/plg-zsh-notify`
 script.
 
-## [Zplugin](https://github.com/zdharma-continuum/zinit)
+## [Zinit](https://github.com/zdharma-continuum/zinit)
 
-Add `zplugin load zdharma/zconvey` to your `.zshrc` file. Zplugin will clone the plugin
- the next time you start zsh. To update issue `zplugin update zdharma/zconvey`.
+Add `zinit load zdharma-continuum/zconvey` to your `.zshrc` file. Zinit will clone the plugin
+ the next time you start zsh. To update issue `zinit update zdharma-continuum/zconvey`.
 
-Zplugin can load in [turbo-mode](https://github.com/zdharma-continuum/zinit#turbo-mode-zsh--53),
+Zinit can load in [turbo-mode](https://github.com/zdharma-continuum/zinit#turbo-mode-zsh--53),
 below is an example configuration, together with adding `zc-bg-notify` to `$PATH`:
 
 ```zsh
-zplugin ice wait"0"
-zplugin light zdharma/zconvey
-zplugin ice wait"0" as"command" pick"cmds/zc-bg-notify" silent
-zplugin light zdharma/zconvey
+zinit ice wait"0"
+zinit light zdharma-continuum/zconvey
+zinit ice wait"0" as"command" pick"cmds/zc-bg-notify" silent
+zinit light zdharma-continuum/zconvey
 ```
 
 ## Antigen
 
-Add `antigen bundle zdharma/zconvey` to your `.zshrc` file. Antigen will handle
+Add `antigen bundle zdharma-continuum/zconvey` to your `.zshrc` file. Antigen will handle
 cloning the plugin for you automatically the next time you start zsh.
 
 ## Oh-My-Zsh
 
 1. `cd ~/.oh-my-zsh/custom/plugins`
-2. `git clone git@github.com:zdharma/zconvey.git`
+2. `git clone git@github.com:zdharma-continuum/zconvey.git`
 3. Add `zconvey` to your plugin list
 
 ## Zgen
 
-Add `zgen load zdharma/zconvey` to your .zshrc file in the same place you're doing
+Add `zgen load zdharma-continuum/zconvey` to your .zshrc file in the same place you're doing
 your other `zgen load` calls in.
 
 # Information
@@ -126,7 +126,7 @@ There are following commands:
 - `zc-ls` – lists all active and named sessions
 - `zc-id` – shows ID and NAME of current session
 - `zc-logo` – the same as `zc-id`, but in a form of an on-screen logo; bound to Ctrl-O Ctrl-I
-- `zc-bg-notify` – in subdirectory `cmds`, link it to `/usr/local/bin`, etc. or load with e.g. Zplugin
+- `zc-bg-notify` – in subdirectory `cmds`, link it to `/usr/local/bin`, etc. or load with e.g. Zinit
 
 The main command is `zc` (yet it is rather rarely used, I'm always sending to all sessions with `zc-all`).
 It is used to execute commands on other sessions. `zc-ls` is the main tool

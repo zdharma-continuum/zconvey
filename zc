@@ -110,7 +110,7 @@ if (( $ask )); then
     if [[ "$have_id" = "0" && "$have_name" = "0" ]]; then
         if ! type zsh-select 2>/dev/null 1>&2; then
             __zconvey_pinfo "Zsh-Select not installed, please install it before using -a/--ask, aborting"
-            __zconvey_pinfo "Example installation: zplugin load psprint/zsh-select"
+            __zconvey_pinfo "Example installation: zinit load psprint/zsh-select"
             return 1
         else
             export ZSHSELECT_START_IN_SEARCH_MODE=0
